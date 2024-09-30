@@ -28,3 +28,13 @@
     padding: 4px;
     font-size: 20px;
 }
+
+
+.card-btn:hover {
+    background: linear-gradient(#9fa19a, #FFFF);
+}
+
+.card-btn1:hover {
+    background: linear-gradient(rgb(81, 201, 235), #FFFF);
+}
+
