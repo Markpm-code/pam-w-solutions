@@ -1,0 +1,17 @@
+:root {
+  --primary: rgb(81, 201, 235);
+}
+
+.footer-layout {
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  color: #FFFF;
+}
+
+.copyright {
+  font-size: 20px;
+  color: var(--primary);
+}
