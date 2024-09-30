@@ -2,6 +2,9 @@
     --primary: rgb(81, 201, 235);
 }
 
+.navigation {
+    box-shadow: 0 0  20px var(--primary)  ;
+}
 .logo{
     width: 100px;
     height: 100px;
