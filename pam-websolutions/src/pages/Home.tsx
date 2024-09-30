@@ -28,66 +28,87 @@ const greetingMessage = greetingUsers();
 const Home = () => {
   return (
     <>
-    <div className="home container-fluid">
-      <div className="text-center ">
-        <h1>
-          {greetingMessage} <span className="exclamation-mark">!</span>
-        </h1>
-        <h2 className="">Welcome to Pam Web Solutions</h2>
-      </div>
-      <div className="container mt-4">
-        <div className="row justify content-center">
-          <div className="col">
-            <h1>Website Designs</h1>
-            <h2>A Freelance Web Developer</h2>
-            <div>
-              <p>
-                Crafting custom websites that grow your business and engage
-                your audience and establish a strong online presence tailored
-                to your unique needs.
-              </p>
-              <p>
-                Transforming ideas into responsive, user-friendly digital
-                experiences.
-              </p>
-            </div>
-            <div>
-              <img className=" " src={Laptop} alt="laptop image" />
-            </div>
-          </div>
-          <div className="col">
-            <img className="profile " src={Profile} alt="profile image" />
-          </div>
-          <div className="col">
-            <h1>Hire Me</h1>
-            <ul>
-              <li>Responsive Design</li>
-              <li>SEO Optimization</li>
-              <li>Google business page set-up</li>
-              <li>Registering Custom Domain in Google</li>
-            </ul>
-            <div>
-              <div className="service_qoute ">
-                <p>A service that values your money.</p>
-                <button className="contact">Contact me </button>
-                <img
-                  className="responsive_img"
-                  src={Responsive}
-                  alt="responsive image"
-                />
+      <div className="home container-fluid">
+        <div className="text-center ">
+          <h1>
+            {greetingMessage} <span className="exclamation-mark">!</span>
+          </h1>
+          <h2 className="">Welcome to Pam Web Solutions</h2>
+        </div>
+        <div className="container mt-4">
+          <div className="row justify content-center">
+            <div className="col">
+              <h1>Website Designs</h1>
+              <h2>A Freelance Web Developer</h2>
+              <div>
+                <p>
+                  Crafting custom websites that grow your business and engage
+                  your audience and establish a strong online presence tailored
+                  to your unique needs.
+                </p>
+                <p>
+                  Transforming ideas into responsive, user-friendly digital
+                  experiences.
+                </p>
               </div>
-              <img className="tablet_img" src={Tablet} alt="tablet image" />
+              <div>
+                <img className=" " src={Laptop} alt="laptop image" />
+              </div>
+            </div>
+            <div className="col">
+              <img className="profile " src={Profile} alt="profile image" />
+              <div className="row justify-content-center mt-4">
+                <a
+                  className="linkedin"
+                  href="https://www.linkedin.com/in/marlon-mandaya-544172234/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Linkedin
+                </a>
+                <a className="portfolio" href="">
+                  Portfolio
+                </a>
+                {/* <a
+                  className="github"
+                  href="https://github.com/Markpm-code"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Github
+                </a> */}
+              </div>
+            </div>
+            <div className="col">
+              <h1>Hire Me</h1>
+              <ul>
+                <li>Responsive Design</li>
+                <li>SEO Optimization</li>
+                <li>Google business page set-up</li>
+                <li>Registering Custom Domain in Google</li>
+              </ul>
+              <div>
+                <div className="service_qoute ">
+                  <p>A service that values your money.</p>
+                  <button className="contact">Contact me </button>
+                  <img
+                    className="responsive_img"
+                    src={Responsive}
+                    alt="responsive image"
+                  />
+                </div>
+                <img className="tablet_img" src={Tablet} alt="tablet image" />
+              </div>
             </div>
           </div>
         </div>
+        <div>
+          <img className="pot_img" src={Pot} alt="pot image" />
+        </div>
+        <CardSection />
       </div>
-      <div>
-        <img className="pot_img" src={Pot} alt="pot image" />
-      </div>
-      <CardSection />
-    </div>
-  </>
-  )
-}
+    </>
+  );
+};
 
-export default Home
+export default Home;
