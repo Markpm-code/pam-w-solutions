@@ -1,6 +1,8 @@
+import ContactForm from "../components/ContactForm";
+
 const Contact = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid mt-4">
       <h1 className="text-center">Contact me</h1>
       <div className="container">
         <p>
@@ -18,11 +20,14 @@ const Contact = () => {
           </li>
         </ul>
         <p>
-          Or simply fill oout the form below, and I'll get back to you as soon
+          Or simply fill out the form below, and I'll get back to you as soon
           as possible!
         </p>
         <div>
           <h2 className="text-center">Contact Form:</h2>
+          <div className="mx-auto col-xl-6">
+          <ContactForm />
+          </div>
         </div>
         <div>
           <h3>Let's work together:</h3>
