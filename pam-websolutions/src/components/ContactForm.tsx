@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import './ContactForm.css';
+import emailjs from "emailjs-com";
+import "./ContactForm.css";
 
 interface FormData {
   user_name: string;
@@ -18,6 +19,9 @@ const ContactForm: React.FC = () => {
     message: "",
   });
 
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submissionMessage, setSubmissionMessage] = useState("");
+
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
@@ -28,10 +32,38 @@ const ContactForm: React.FC = () => {
     }));
   };
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => { 
     e.preventDefault();
-    // Handle form submission logic here
-    console.log(formData);
+    setIsSubmitting(true);
+
+    const templateParams = {
+      user_name: formData.user_name,
+      user_email: formData.user_email,
+      subject: formData.subject,
+      contact_number: formData.contact_number,
+      message: formData.message,
+    };
+
+    emailjs
+      .send(
+        "service_cb03fgg",
+        "template_hkew12c",
+        templateParams, 
+        "BQDIVoHiRDuMGG9Y-" 
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setSubmissionMessage("Message sent successfully!");
+        },
+        (error) => {
+          console.log(error.text);
+          setSubmissionMessage("Failed to send message. Please try again.");
+        }
+      )
+      .finally(() => {
+        setIsSubmitting(false);
+      });
   };
 
   return (
@@ -121,8 +153,10 @@ const ContactForm: React.FC = () => {
         type="submit"
         id="button"
         className="btn contact-submit-btn"
-        value="Send Message"
+        value={isSubmitting ? "Sending..." : "Send Message"}
+        disabled={isSubmitting}
       />
+      {submissionMessage && <p>{submissionMessage}</p>}
     </form>
   );
 };
