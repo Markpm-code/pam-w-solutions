@@ -1,4 +1,6 @@
 import ContactForm from "../components/ContactForm";
+import Background from "../assets/video/background.mp4";
+import "./Contact.css";
 
 const Contact = () => {
   return (
@@ -12,24 +14,33 @@ const Contact = () => {
           business grow, I'm here to assist you every step of the way.
         </p>
         <p>Let's get in touch:</p>
-        <ul>
-          <li>Email:</li>
-          <li>Phone:</li>
+        <ul className="list-unstyled">
           <li>
+            <i className="fa-solid fa-envelope me-3"></i>Email:
+          </li>
+          <li>
+            <i className="fa-solid fa-phone me-3 mt-2"></i>Phone:
+          </li>
+          <li>
+            <i className="fa-solid fa-location-dot me-3 mt-2"></i>
             Location: Galway, Ireland, offering services remotely worldwide.
           </li>
         </ul>
         <p>
-          Or simply fill out the form below, and I'll get back to you as soon
-          as possible!
+          Or simply fill out the form below, and I'll get back to you as soon as
+          possible!
         </p>
-        <div>
-          <h2 className="text-center">Contact Form:</h2>
-          <div className="mx-auto col-xl-6 col-md-6">
-          <ContactForm />
+        <h2 className="text-center">Contact Form</h2>
+        <div className="video-background rounded mt-4">
+          <video autoPlay muted loop id="bg-video">
+            <source src={Background} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <div className="mx-auto col-md-6 content">
+            <ContactForm />
           </div>
         </div>
-        <div>
+        <div className="mt-4">
           <h3>Let's work together:</h3>
           <p>
             I'm passionate about helping businesses like yours create a powerful

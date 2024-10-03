@@ -1,0 +1,51 @@
+.video-background {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden; 
+    box-shadow: 0 0 10px rgb(81, 201, 235);
+}
+
+#bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%; /*Ensure video covers the entire width*/
+    min-height: 100%; /*Ensure video covers the entire height*/
+    height:100vh;
+    width:100vw;
+    z-index: -1; 
+    transform: translate(-50%, -50%); /* Center the video */
+    object-fit: cover; /* Ensures the video covers the entire container without distortion */
+}
+
+.content {
+    position: relative;
+    z-index: 1; 
+    color: white;
+    padding: 20px;
+}
+
+/* Responsive Media Queries */
+@media only screen and (max-width: 768px) {
+    .content {
+        font-size: 1.5rem; 
+        padding: 10px;
+    }
+
+    #bg-video {
+        width: 100%;  /* Ensure the video maintains full width on smaller screens */
+        height: auto; /* Automatically adjust the height */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .content {
+        font-size: 1.2rem;
+    }
+
+    #bg-video {
+        width: 100%; /* Fit the width for small devices */
+        height: auto;
+    }
+}
