@@ -25,7 +25,7 @@ const Contact = () => {
         </p>
         <div>
           <h2 className="text-center">Contact Form:</h2>
-          <div className="mx-auto col-xl-6">
+          <div className="mx-auto col-xl-6 col-md-6">
           <ContactForm />
           </div>
         </div>
