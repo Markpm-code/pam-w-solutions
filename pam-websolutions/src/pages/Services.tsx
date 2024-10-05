@@ -19,31 +19,31 @@ const Services = () => {
         solutions that reflect your brand and help your business grow.
       </p>
       <div className="row">
-        <div className="col bg-light p-4">
+        <div className="col-lg-6 col-md-6 bg-light p-4">
           <DevelopmentSection />
         </div>
-        <div className="col seo-section p-4">
+        <div className="col-lg-6 col-md-6 seo-section p-4">
           <Seo />
         </div>
       </div>
       <div className="row">
-        <div className="col mobile-section p-4">
+        <div className="col-lg-6 col-md-6 mobile-section p-4">
           <MobileSection />
         </div>
-        <div className="col bg-light p-4">
+        <div className="col-lg-6 col-md-6 bg-light p-4">
           <GoogleSetup />
         </div>
       </div>
       <div className="row">
-        <div className="col bg-light p-4">
+        <div className="col-lg-6 col-md-6 bg-light p-4">
           <UxSection />
         </div>
-        <div className="col ux-section p-4">
+        <div className="col-lg-6 col-md-6 ux-section p-4">
           <ProcessSection />
         </div>
       </div>
       <div className="row">
-        <div className="col ux-section p-4">
+        <div className="col-lg-6 col-md-6 ux-section p-4">
           <h2>Why Work with Pam Web Solutions?</h2>
           <ul>
             <li>
