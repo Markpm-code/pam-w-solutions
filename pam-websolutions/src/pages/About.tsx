@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const About = () => {
   return (
     <div>
@@ -54,8 +56,10 @@ const About = () => {
         <p>
           Let's work together to create a website that represents your brand and
           drives your business forward. Ready to get started?
-          <a href="">Contact me</a>
-          today, and let's make your online journey a success!
+          <Link to="/contact" className="text-decoration-none me-2">
+            Contact me today in our contact page
+          </Link>
+          , and let's make your online journey a success!
         </p>
       </div>
     </div>

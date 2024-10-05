@@ -5,6 +5,7 @@ import GoogleSetup from "../components/GoogleSetup";
 import UxSection from "../components/UxSection";
 import "./Services.css";
 import ProcessSection from "../components/ProcessSection";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
@@ -62,8 +63,12 @@ const Services = () => {
         </div>
         <div className="col p-4 my-auto">
           <p>
-            <span className="in-touch">Get in Touch</span> Ready to take your business to the next level with a
-            powerful website?<a href="">Contact me today</a> to get started!
+            <span className="in-touch">Get in Touch</span> Ready to take your
+            business to the next level with a powerful website?
+            <Link to="/contact" className="text-decoration-none me-1">
+              Contact me today in our contact page
+            </Link>
+            to get started!
           </p>
         </div>
       </div>
