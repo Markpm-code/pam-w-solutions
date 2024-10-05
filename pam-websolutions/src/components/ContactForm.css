@@ -10,4 +10,5 @@
 .contact-submit-btn:hover {
   background: linear-gradient(#9fa19a, #ffff, #9fa19a);
   box-shadow: 2px 4px 6px #9fa19a;
+  color:black;
 }
