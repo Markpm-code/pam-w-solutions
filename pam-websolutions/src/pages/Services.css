@@ -1,0 +1,12 @@
+.seo-section,
+.mobile-section,
+.ux-section {
+    background-color: rgb(81, 201, 235);
+    color:#FFFF;
+}
+
+.in-touch {
+    font-weight:bolder;
+    font-size: 20px;
+    color: rgb(81, 201, 235);
+}
