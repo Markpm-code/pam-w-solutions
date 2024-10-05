@@ -10,3 +10,14 @@
     font-size: 20px;
     color: rgb(81, 201, 235);
 }
+
+@media only screen and (max-width: 540px) {
+    .google-border {
+        border-bottom: 2px solid rgb(81, 201, 235);
+      }
+      
+    .ux-section,
+    .seo-section {
+        border-bottom: 2px solid #ffff;
+      }
+}

@@ -30,7 +30,7 @@ const Services = () => {
         <div className="col-lg-6 col-md-6 mobile-section p-4">
           <MobileSection />
         </div>
-        <div className="col-lg-6 col-md-6 bg-light p-4">
+        <div className="col-lg-6 col-md-6 bg-light p-4 google-border">
           <GoogleSetup />
         </div>
       </div>
