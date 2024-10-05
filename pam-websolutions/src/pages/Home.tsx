@@ -5,6 +5,7 @@ import Pot from "../assets/images/pot .png";
 import Laptop from "../assets/images/laptop.png";
 import CardSection from "../components/CardSection";
 import "./Home.css";
+import { Link } from "react-router-dom";
 
 function greetingUsers() {
   const now = new Date();
@@ -90,7 +91,11 @@ const Home = () => {
               <div>
                 <div className="service_qoute ">
                   <p>A service that values your money.</p>
-                  <button className="contact">Contact me </button>
+                  <button className="contact">
+                    <Link to="/contact" className="text-decoration-none">
+                      Contact me here
+                    </Link>
+                  </button>
                   <img
                     className="responsive_img"
                     src={Responsive}
