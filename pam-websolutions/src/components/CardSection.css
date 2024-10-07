@@ -3,6 +3,7 @@
     height: 460px;
     margin:20px 10px;
     box-shadow: 0  2px 8px rgb(46, 47, 48);
+    padding-bottom: 16px;
 }
 
 .card:hover {
@@ -21,12 +22,17 @@
     font-size: 20px;
 }
 
+.card p {
+    flex-grow: 1;
+}
+
 .card-btn1 {
     background: linear-gradient(#9fa19a, #FFFF);
     border-radius: 10px;
     border: #FFFF;
     padding: 4px;
     font-size: 20px;
+    margin-top: 16px;
 }
 
 
