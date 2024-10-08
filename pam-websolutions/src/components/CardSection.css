@@ -44,3 +44,7 @@
     background: linear-gradient(rgb(81, 201, 235), #FFFF);
 }
 
+.card-links {
+    text-decoration: none;
+    color:black;
+}
