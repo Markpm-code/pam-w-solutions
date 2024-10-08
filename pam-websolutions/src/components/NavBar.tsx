@@ -15,7 +15,7 @@ const NavBar = () => {
             <img className="logo" src={Logo} alt="" />
             Pam Web Soultions
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle aria-controls="basic-navbar-nav" className="border-0" />
           <Navbar.Collapse
             id="basic-navbar-nav"
             className="justify-content-end"
