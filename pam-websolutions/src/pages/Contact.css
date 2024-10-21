@@ -26,6 +26,17 @@
     padding: 20px;
 }
 
+.fa-phone,
+.fa-envelope,
+.fa-location-dot,
+.facebook-icon,
+.linkedin-icon {
+    background: linear-gradient( #ffff, rgb(81, 201, 235), #ffff );
+    color:#ffff;
+    border-radius: 50%;
+    padding: 10px;
+}
+
 /* Responsive Media Queries */
 @media only screen and (min-width: 820px) and (max-width: 1024px) {
     .video-background {

@@ -5,7 +5,7 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <div className="container-fluid mt-4">
-      <h1 className="text-center">Contact me</h1>
+      <h1 className="text-center">Contact Me</h1>
       <div className="container">
         <p>
           Ready to take your online presence to the next level? I'd love to hear
@@ -50,14 +50,21 @@ const Contact = () => {
             website a success!
           </p>
         </div>
-        <div>
-          <h4>Follow me</h4>
+        <div className="mb-4">
+          <h4>Follow Me</h4>
           <a
             href="https://www.linkedin.com/in/marlon-mandaya-544172234/"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer" className="text-decoration-none"
           >
-            Linkedin
+            <i className="fab fa-linkedin linkedin-icon mx-2"></i>
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=61562777530514"
+            target="_blank"
+            rel="noopener noreferrer" className="text-decoration-none mx-2"
+          >
+            <i className="fab fa-facebook facebook-icon mx-2"></i>
           </a>
         </div>
       </div>
