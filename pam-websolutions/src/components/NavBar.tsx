@@ -9,7 +9,7 @@ import Logo from "../assets/images/pam-logo1.png";
 const NavBar = () => {
   return (
     <div>
-      <Navbar expand="lg" className="bg-secondary navigation">
+      <Navbar expand="lg" className=" navigation">
         <Container>
           <Navbar.Brand as={Link} to="/">
             <img className="logo" src={Logo} alt="" />
