@@ -2,12 +2,12 @@
     width: 320px;
     height: 460px;
     margin:20px 10px;
-    box-shadow: 0  2px 8px rgb(46, 47, 48);
+    box-shadow: 0 4px 8px #FFFF;
     padding-bottom: 16px;
 }
 
 .card:hover {
-    box-shadow: 2px 4px  6px  rgb(81, 201, 235);
+    box-shadow: 0 4px  20px rgb(81, 201, 235);
 }
 
 .card img {
