@@ -13,7 +13,7 @@ const NavBar = () => {
         <Container>
           <Navbar.Brand as={Link} to="/">
             <img className="logo" src={Logo} alt="" />
-            Pam Web Soultions
+            Pam Web Solutions
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" className="border-0" />
           <Navbar.Collapse
