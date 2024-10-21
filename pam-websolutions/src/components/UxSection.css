@@ -3,3 +3,7 @@
   text-shadow: 0px 0px 20px rgb(81, 201, 235);
   width: fit-content;
 }
+
+.ui-section {
+  color:rgb(35, 28, 28);
+}

@@ -3,7 +3,7 @@ import './UxSection.css';
 const UxSection = () => {
   return (
     <div>
-      <section>
+      <section className='ui-section'>
         <h2 className="design-section">UX/UI Design</h2>
         <p>
           I create websites that not only look great but offer a seamless user

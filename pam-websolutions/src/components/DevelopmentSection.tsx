@@ -3,7 +3,7 @@ import './DevelopmentSection.css';
 const ServicesSection = () => {
   return (
     <div>
-      <section>
+      <section className='services-section'>
             <h2 className="design-dev-section">Website Design & Development</h2>
             <p>
               Your website is often the first interaction potential customers

@@ -3,7 +3,7 @@ import './GoogleSetup.css'
 const GoogleSetup = () => {
   return (
     <div>
-      <section>
+      <section className='google-setup'>
         <h2 className="google-setup-section">Google Business & Console Setup</h2>
         <p>
           Getting your business set up correctly on Google is crucial for local
