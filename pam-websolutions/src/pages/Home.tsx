@@ -34,7 +34,7 @@ const Home = () => {
           <h1>
             {greetingMessage} <span className="exclamation-mark">!</span>
           </h1>
-          <h2 className="">Welcome to Pam Web Solutions</h2>
+          <h2 className="welcome-text">Welcome to Pam Web Solutions</h2>
         </div>
         <div className="container mt-4">
           <div className="row justify content-center">

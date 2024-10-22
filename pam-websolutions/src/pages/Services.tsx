@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 const Services = () => {
   return (
     <div className="container mb-4 mt-4">
-      <h1 className="text-center">Services</h1>
+      <h1 className="text-center services-page">Services</h1>
       <p className="mb-4">
         At Pam Web Solutions, I provide a range of web development services
         designed to meet your specific business needs, no matter where you are

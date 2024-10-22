@@ -1,0 +1,7 @@
+.about-page {
+    background: linear-gradient(to bottom, #FFFF, rgb(81, 201, 235), #FFFF, rgb(81, 201, 235));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:bolder;
+}

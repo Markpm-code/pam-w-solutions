@@ -5,7 +5,7 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <div className="container-fluid mt-4">
-      <h1 className="text-center">Contact Me</h1>
+      <h1 className="text-center contact-me">Contact Me</h1>
       <div className="container">
         <p>
           Ready to take your online presence to the next level? I'd love to hear
@@ -30,7 +30,7 @@ const Contact = () => {
           Or simply fill out the form below, and I'll get back to you as soon as
           possible!
         </p>
-        <h2 className="text-center">Contact Form</h2>
+        <h2 className="text-center contact-form">Contact Form</h2>
         <div className="video-background rounded mt-4">
           <video autoPlay muted loop id="bg-video">
             <source src={Background} type="video/mp4" />

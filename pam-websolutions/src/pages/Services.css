@@ -11,6 +11,14 @@
     color: rgb(81, 201, 235);
 }
 
+.services-page {
+    background: linear-gradient(to bottom, #FFFF, rgb(81, 201, 235), #FFFF, rgb(81, 201, 235));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:bolder;
+}
+
 @media only screen and (max-width: 540px) {
     .google-border {
         border-bottom: 2px solid rgb(81, 201, 235);

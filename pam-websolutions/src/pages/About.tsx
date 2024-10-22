@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
+import "./About.css";
 
 const About = () => {
   return (
     <div>
-      <h1 className="text-center mt-4">About Page</h1>
+      <h1 className="text-center mt-4 about-page">About Page</h1>
       <div className="container">
         <p>
           Hi, I'm Marlon, the founder of Pam Web Solutions. My journey into web

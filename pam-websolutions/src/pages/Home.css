@@ -1,7 +1,14 @@
 .home {
-  position: relative;
+  /* position: relative; */
 }
 
+.welcome-text {
+  background: linear-gradient(to bottom, #FFFF, rgb(81, 201, 235), #FFFF, rgb(81, 201, 235));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight:bolder;
+}
 .profile {
   width: 400px;
   height: 400px;
