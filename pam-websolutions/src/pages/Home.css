@@ -1,5 +1,21 @@
 .home {
-  /* position: relative; */
+  position: relative;
+}
+
+.greeting {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: transform 2s ease-out, opacity 2s ease-out; /* Slower transition */
+} 
+
+.greeting.visible {
+  opacity: 1;
+  transform: translateY(0);
+  background: linear-gradient(to bottom,rgb(81, 201, 235), #FFFF, rgb(81, 201, 235) );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight:900;
 }
 
 .welcome-text {
@@ -7,8 +23,9 @@
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight:bolder;
+  font-weight:900;
 }
+
 .profile {
   width: 400px;
   height: 400px;

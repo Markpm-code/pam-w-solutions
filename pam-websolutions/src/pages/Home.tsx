@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import Responsive from "../assets/images/responsive_img.png";
 import Profile from "../assets/images/profile_img.png";
 import Tablet from "../assets/images/tablet.png";
@@ -24,17 +25,43 @@ function greetingUsers() {
   return greeting;
 }
 
-const greetingMessage = greetingUsers();
+// const greetingMessage = greetingUsers();
 
 const Home = () => {
+  const [visible, setVisible] = useState(false);
+  const [greetingMessage, setGreetingMessage] = useState("");
+
+  useEffect(() => {
+    const message = greetingUsers();
+    setGreetingMessage(message);
+
+    // Show the h1 element
+    const showTimeout = setTimeout(() => {
+      setVisible(true);
+    }, 100);
+
+    // Hide the h1 element
+    const hideTimeout = setTimeout(() => {
+      setVisible(false);
+    }, 5000);
+
+    // Cleanup timeouts on component unmount
+    return () => {
+      clearTimeout(showTimeout);
+      clearTimeout(hideTimeout);
+    };
+  }, []);
+
   return (
     <>
       <div className="home container-fluid">
         <div className="text-center ">
-          <h1>
-            {greetingMessage} <span className="exclamation-mark">!</span>
-          </h1>
-          <h2 className="welcome-text">Welcome to Pam Web Solutions</h2>
+          <div className="mt-2">
+            <h1 className={`greeting ${visible ? 'visible' : ''}`}>
+              {greetingMessage}!
+            </h1>
+          </div>
+          <h1 className="welcome-text">Welcome to Pam Web Solutions</h1>
         </div>
         <div className="container mt-4">
           <div className="row justify content-center">
