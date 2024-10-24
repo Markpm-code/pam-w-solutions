@@ -5,3 +5,14 @@
     -webkit-text-fill-color: transparent;
     font-weight:bolder;
 }
+
+.contactFor-pricing {
+    color: rgb(81, 201, 235);
+    font-size: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.contactFor-pricing:hover {
+    text-decoration: #FFFF underline;
+}
