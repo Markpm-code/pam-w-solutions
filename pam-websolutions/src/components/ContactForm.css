@@ -4,11 +4,10 @@
   border-radius: 10px;
   border: #ffff;
   padding: 6px;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .contact-submit-btn:hover {
-  background: linear-gradient(#9fa19a, #ffff, #9fa19a);
   box-shadow: 2px 4px 6px #9fa19a;
-  color:black;
+  color:#FFFF;
 }
