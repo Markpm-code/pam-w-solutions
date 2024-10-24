@@ -5,8 +5,8 @@
 .greeting {
   opacity: 0;
   transform: translateY(50px);
-  transition: transform 2s ease-out, opacity 2s ease-out; /* Slower transition */
-} 
+  transition: transform 2s ease-out, opacity 2s ease-out;
+}
 
 .greeting.visible {
   opacity: 1;
@@ -18,7 +18,16 @@
   font-weight:900;
 }
 
-.welcome-text {
+.welcome-content.visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: transform 2s ease-out, 3s ease-in;
+}
+
+.welcome-content {
+  opacity: 0;
+  transform: translateY(-50px);
+
   background: linear-gradient(to bottom, #FFFF, rgb(81, 201, 235), #FFFF, rgb(81, 201, 235));
   -webkit-background-clip: text;
   background-clip: text;

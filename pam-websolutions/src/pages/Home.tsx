@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import Responsive from "../assets/images/responsive_img.png";
 import Profile from "../assets/images/profile_img.png";
 import Tablet from "../assets/images/tablet.png";
-import Pot from "../assets/images/pot .png";
 import Laptop from "../assets/images/laptop.png";
 import CardSection from "../components/CardSection";
 import "./Home.css";
@@ -25,10 +24,10 @@ function greetingUsers() {
   return greeting;
 }
 
-// const greetingMessage = greetingUsers();
 
 const Home = () => {
-  const [visible, setVisible] = useState(false);
+  const [visibleGreeting, setVisibleGreeting] = useState(false);
+  const [visibleContent, setVisibleContent] = useState(false);
   const [greetingMessage, setGreetingMessage] = useState("");
 
   useEffect(() => {
@@ -36,19 +35,25 @@ const Home = () => {
     setGreetingMessage(message);
 
     // Show the h1 element
-    const showTimeout = setTimeout(() => {
-      setVisible(true);
+    const showGreetingTimeout = setTimeout(() => {
+      setVisibleGreeting(true);
     }, 100);
 
-    // Hide the h1 element
-    const hideTimeout = setTimeout(() => {
-      setVisible(false);
-    }, 5000);
+        const showContentTimeout = setTimeout(() => {
+          setVisibleContent(true);
+        }, 2000);
+    
 
-    // Cleanup timeouts on component unmount
+    // Hide the h1 element
+    const hideGreetingTimeout = setTimeout(() => {
+      setVisibleGreeting(false);
+    }, 6000);
+
+    // Cleanup timeouts
     return () => {
-      clearTimeout(showTimeout);
-      clearTimeout(hideTimeout);
+      clearTimeout(showContentTimeout);
+      clearTimeout(showGreetingTimeout);
+      clearTimeout(hideGreetingTimeout);
     };
   }, []);
 
@@ -57,11 +62,11 @@ const Home = () => {
       <div className="home container-fluid">
         <div className="text-center ">
           <div className="mt-2">
-            <h1 className={`greeting ${visible ? 'visible' : ''}`}>
+            <h1 className={`greeting ${visibleGreeting ? 'visible' : ''}`}>
               {greetingMessage}!
             </h1>
           </div>
-          <h1 className="welcome-text">Welcome to Pam Web Solutions</h1>
+          <h1 className={`welcome-content ${visibleContent ? 'visible' : ''}`}>Welcome to Pam Web Solutions</h1>
         </div>
         <div className="container mt-4">
           <div className="row justify content-center">
