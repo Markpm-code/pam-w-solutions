@@ -85,11 +85,7 @@
 .contact:hover {
   box-shadow: 0px 2px 6px rgb(81, 201, 235);
 }
-.pot_img {
-  position: absolute;
-  z-index: 1;
-  margin-top: -260px;
-}
+
 .exclamation-mark {
   color: rgb(81, 201, 235);
 }

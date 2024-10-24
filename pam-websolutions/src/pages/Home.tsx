@@ -134,9 +134,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div>
-          <img className="pot_img" src={Pot} alt="pot image" />
-        </div>
         <CardSection />
       </div>
     </>
