@@ -34,7 +34,7 @@
 .navigation-links a.active {
     width:fit-content;
     color:#FFFF;
-    box-shadow: 0 8px  6px rgb(81, 201, 235)  ;
+    box-shadow: 0 8px  6px rgb(81, 201, 235);
 }
 
 @media only screen and (max-width: 400px) {

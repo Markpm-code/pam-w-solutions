@@ -37,7 +37,8 @@ const Footer = () => {
             <span className="copyright">©</span> {currentYear} Copyright
           </div>
           {/* <i className="fa-solid fa-dove mx-2 dove-icon"></i> */}
-          <a className="text-body text-decoration-none" href="">
+          <a className="pws-fbLink" href="https://www.facebook.com/profile.php?id=61562777530514" target="_blank"
+            rel="noopener noreferrer">
             Pam Web Solutions
           </a>
         </div>
