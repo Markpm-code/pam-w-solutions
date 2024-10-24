@@ -19,6 +19,17 @@
     font-weight:bolder;
 }
 
+.services-contactPage-link {
+    color: rgb(81, 201, 235);
+    font-size: 16px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.services-contactPage-link:hover {
+    text-decoration: #FFFF underline;
+}
+
 @media only screen and (max-width: 540px) {
     .google-border {
         border-bottom: 2px solid rgb(81, 201, 235);
