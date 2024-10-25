@@ -1,8 +1,10 @@
+import './Mobile.css';
+
 const MobileSection = () => {
   return (
     <div>
       <section>
-        <h2>Mobile-Responsive Design</h2>
+        <h2 className="mobile-heading">Mobile-Responsive Design</h2>
         <p>
           More than half of web traffic comes from mobile devices. I ensure your
           website is fully responsive, so it looks great and functions perfectly

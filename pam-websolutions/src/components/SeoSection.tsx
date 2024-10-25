@@ -1,8 +1,10 @@
+import './Seo.css';
+
 const SeoSection = () => {
   return (
     <div>
       <section>
-        <h2>Search Engine Optimization (SEO)</h2>
+        <h2 className="seo-heading">Search Engine Optimization (SEO)</h2>
         <p>
           Being found on search engines is key to driving traffic to your site.
           My SEO services ensure that your website ranks higher in search

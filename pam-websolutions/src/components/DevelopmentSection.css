@@ -1,7 +1,9 @@
 .design-dev-section {
-  border-bottom: 2px solid rgb(81, 201, 235);
-  text-shadow: 0px 0px 20px rgb(81, 201, 235);
-  width: fit-content;
+  background: linear-gradient(to bottom, rgb(81, 201, 235), rgb(81, 201, 235), rgb(35, 28, 28));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight:bolder;
 }
 
 .services-section {

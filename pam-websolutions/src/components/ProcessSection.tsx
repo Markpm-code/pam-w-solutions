@@ -1,8 +1,10 @@
+import './Process.css';
+
 const ProcessSection = () => {
   return (
     <div>
       <section>
-        <h2>Our Process</h2>
+        <h2 className="process-heading">Our Process</h2>
         <p>Here's how we'll work together to build your dream website:</p>
         <ol>
           <li>Consultation: Understanding your goals and business needs.</li>

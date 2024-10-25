@@ -5,12 +5,29 @@
     color:#FFFF;
 }
 
+.get-in-touch {
+    text-align: justify;
+}
 .in-touch {
+    background: linear-gradient(to bottom, #FFFF, #FFFF, rgb(81, 201, 235), rgb(81, 201, 235));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight:bolder;
-    font-size: 20px;
-    color: rgb(81, 201, 235);
+    font-size: 30px;
 }
 
+.why-pam-heading {
+    background: linear-gradient(to bottom, #FFFF, #FFFF, rgb(81, 201, 235), rgb(81, 201, 235));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:bolder;
+}
+
+.why-list li {
+    text-align: justify;
+}
 .services-page {
     background: linear-gradient(to bottom, #FFFF, rgb(81, 201, 235), #FFFF, rgb(81, 201, 235));
     -webkit-background-clip: text;

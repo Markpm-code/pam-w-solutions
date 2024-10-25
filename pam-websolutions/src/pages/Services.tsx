@@ -44,8 +44,8 @@ const Services = () => {
       </div>
       <div className="row">
         <div className="col-lg-6 col-md-6  p-4">
-          <h2>Why Work with Pam Web Solutions?</h2>
-          <ul>
+          <h2 className="why-pam-heading">Why Work with Pam Web Solutions?</h2>
+          <ul className="why-list">
             <li>
               Personalized Service: You'll work directly with me from start to
               finish, ensuring that your vision is at the center of every
@@ -62,7 +62,7 @@ const Services = () => {
           </ul>
         </div>
         <div className="col p-4 my-auto">
-          <p>
+          <p className="get-in-touch">
             <span className="in-touch">Get in Touch!</span> Ready to take your
             business to the next level with a powerful website?
             <Link to="/contact" className="me-1 services-contactPage-link">
