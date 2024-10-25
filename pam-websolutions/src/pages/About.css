@@ -25,3 +25,12 @@
 .contactFor-pricing:hover {
     text-decoration: #FFFF underline;
 }
+
+@media only screen and (max-width: 540px) {
+    .about-p p {
+        text-align: justify;
+    }
+    .contactFor-pricing {
+    text-decoration: #FFFF underline;
+    }
+}

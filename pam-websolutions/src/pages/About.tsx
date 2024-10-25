@@ -19,7 +19,7 @@ const About = () => {
   return (
     <div>
       <h1 className={`text-center mt-4 about-page ${visibleAboutHeading ? 'visible' : ''}`}>About Page</h1>
-      <div className="container">
+      <div className="container about-p">
         <p>
           Hi, I'm Marlon, the founder of Pam Web Solutions. My journey into web
           development began with a passion for helping small businesses harness
