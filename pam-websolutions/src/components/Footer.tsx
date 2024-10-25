@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="container p-4">
           <div className="row">
             <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
-              <h5 className="text-uppercase">Footer text</h5>
+              <h5 className="text-uppercase cookie-policy">Cookie Policy</h5>
 
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
@@ -20,7 +20,7 @@ const Footer = () => {
             </div>
 
             <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
-              <h5 className="text-uppercase">Footer text</h5>
+              <h5 className="text-uppercase privacy-policy">Privacy Policy</h5>
 
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
