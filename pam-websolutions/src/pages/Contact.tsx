@@ -1,11 +1,24 @@
+import { useEffect, useState } from 'react';
 import ContactForm from "../components/ContactForm";
 import Background from "../assets/video/background.mp4";
 import "./Contact.css";
 
 const Contact = () => {
+  const [visibleContactHeading, setVisibleContactHeading] = useState(false);
+
+  useEffect(() => {
+        const showContactHeadingTimeout = setTimeout(() => {
+          setVisibleContactHeading(true);
+        }, 100);
+
+    // Cleanup timeout
+    return () => {
+      clearTimeout(showContactHeadingTimeout);
+    };
+  }, []);
   return (
     <div className="container-fluid mt-4">
-      <h1 className="text-center contact-me">Contact Me</h1>
+      <h1 className={`text-center contact-me ${visibleContactHeading ? 'visible' : ''}`}>Contact Me</h1>
       <div className="container">
         <p>
           Ready to take your online presence to the next level? I'd love to hear

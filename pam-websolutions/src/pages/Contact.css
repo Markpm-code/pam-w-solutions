@@ -7,6 +7,17 @@
     font-weight:bolder;
 }
 
+.contact-me {
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.contact-me.visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: transform 2s ease-out, opacity 2s ease-out;
+}
+
 .video-background {
     position: relative;
     width: 100%;
