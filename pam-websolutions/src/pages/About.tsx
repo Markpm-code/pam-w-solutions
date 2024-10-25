@@ -21,7 +21,7 @@ const About = () => {
       <h1 className={`text-center mt-4 about-page ${visibleAboutHeading ? 'visible' : ''}`}>About Page</h1>
       <div className="container about-p">
         <p>
-          Hi, I'm Marlon, the founder of Pam Web Solutions. My journey into web
+          Hi, <span className='creator'>I'm Marlon</span>, the founder of Pam Web Solutions. My journey into web
           development began with a passion for helping small businesses harness
           the power of the internet. After seeing firsthand how a well-crafted
           website can transform a business, I committed myself to mastering web
@@ -30,7 +30,7 @@ const About = () => {
           up-to-date and effective solutions for my clients.
         </p>
         <p>
-          At Pam Web Solutions, my mission is simple: to empower small
+          At <span className='about-pws'>Pam Web Solutions</span>, my mission is simple: to empower small
           businesses by providing professional, user-friendly websites tailored
           to your unique needs. I believe in the power of a strong online
           presence and work closely with clients to ensure their websites
@@ -38,7 +38,7 @@ const About = () => {
           that help your business thrive in the digital landscape.
         </p>
         <div>
-          <p>I specialize in :</p>
+          <p className='specialize-p'>I specialize in :</p>
           <ul>
             <li>
               Web Development (HTML, CSS, JavaScript, Jquery, Bootstrap,

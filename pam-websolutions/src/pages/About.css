@@ -15,6 +15,17 @@
     transition: transform 2s ease-out, opacity 2s ease-out;
 }
 
+.about-pws,
+.specialize-p,
+.creator {
+    background: linear-gradient(to bottom, #FFFF, #FFFF, rgb(81, 201, 235));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:bolder;
+    font-size: 20px;
+}
+
 .contactFor-pricing {
     color: rgb(81, 201, 235);
     font-size: 20px;

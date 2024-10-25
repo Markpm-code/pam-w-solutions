@@ -1,10 +1,10 @@
 .main-paragraph span {
-    background: linear-gradient(to bottom, #FFFF, #FFFF, rgb(81, 201, 235), rgb(81, 201, 235));
+    background: linear-gradient(to bottom, #FFFF, #FFFF, rgb(81, 201, 235));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight:bolder;
-    font-size: 24px;
+    font-size: 20px;
 }
 .seo-section,
 .mobile-section,
@@ -17,7 +17,7 @@
     text-align: justify;
 }
 .in-touch {
-    background: linear-gradient(to bottom, #FFFF, #FFFF, rgb(81, 201, 235), rgb(81, 201, 235));
+    background: linear-gradient(to bottom, #FFFF, #FFFF, rgb(81, 201, 235));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -26,7 +26,7 @@
 }
 
 .why-pam-heading {
-    background: linear-gradient(to bottom, #FFFF, #FFFF, rgb(81, 201, 235), rgb(81, 201, 235));
+    background: linear-gradient(to bottom, #FFFF, #FFFF, rgb(81, 201, 235));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
