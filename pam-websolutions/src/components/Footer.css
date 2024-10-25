@@ -27,7 +27,6 @@ footer p {
 }
 
 .pws-fbLink {
-  /* color: var(--primary); */
   background: linear-gradient(to bottom ,#FFFF, rgb(81, 201, 235), #FFFF);
   -webkit-background-clip: text;
   background-clip: text;
