@@ -1,9 +1,18 @@
 .about-page {
+    opacity: 0;
+    transform: translateY(50px);
+  
     background: linear-gradient(to bottom, #FFFF, rgb(81, 201, 235), #FFFF, rgb(81, 201, 235));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight:bolder;
+}
+
+.about-page.visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: transform 2s ease-out, opacity 2s ease-out;
 }
 
 .contactFor-pricing {

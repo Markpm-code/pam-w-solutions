@@ -1,10 +1,24 @@
+import { useEffect, useState } from 'react';
 import { Link } from "react-router-dom";
 import "./About.css";
 
 const About = () => {
+  const [visibleAboutHeading, setVisibleAboutHeading] = useState(false);
+
+  useEffect(() => {
+        const showAboutContentTimeout = setTimeout(() => {
+          setVisibleAboutHeading(true);
+        }, 100);
+
+    // Cleanup timeout
+    return () => {
+      clearTimeout(showAboutContentTimeout);
+    };
+  }, []);
+
   return (
     <div>
-      <h1 className="text-center mt-4 about-page">About Page</h1>
+      <h1 className={`text-center mt-4 about-page ${visibleAboutHeading ? 'visible' : ''}`}>About Page</h1>
       <div className="container">
         <p>
           Hi, I'm Marlon, the founder of Pam Web Solutions. My journey into web
