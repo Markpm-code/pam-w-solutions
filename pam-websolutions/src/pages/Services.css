@@ -1,3 +1,11 @@
+.main-paragraph span {
+    background: linear-gradient(to bottom, #FFFF, #FFFF, rgb(81, 201, 235), rgb(81, 201, 235));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:bolder;
+    font-size: 24px;
+}
 .seo-section,
 .mobile-section,
 .ux-section {
@@ -56,4 +64,16 @@
     .seo-section {
         border-bottom: 2px solid #ffff;
       }
+
+    .main-paragraph {
+        text-align: justify;
+    }
+
+    .why-pam-heading {
+    background: linear-gradient(to bottom left, #FFFF, rgb(81, 201, 235), #FFFF, rgb(81, 201, 235));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:bolder;
+    }
 }

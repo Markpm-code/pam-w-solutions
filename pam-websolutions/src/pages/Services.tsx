@@ -11,8 +11,8 @@ const Services = () => {
   return (
     <div className="container mb-4 mt-4">
       <h1 className="text-center services-page">Services</h1>
-      <p className="mb-4">
-        At Pam Web Solutions, I provide a range of web development services
+      <p className="mb-4 main-paragraph">
+        At <span>Pam Web Solutions</span>, I provide a range of web development services
         designed to meet your specific business needs, no matter where you are
         in your digital journey. Whether you're starting from scratch or looking
         to enhance an existing website, I'm committed to delivering customized
