@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import DevelopmentSection from "../components/DevelopmentSection";
 import Seo from "../components/SeoSection";
 import MobileSection from "../components/MobileSection";
@@ -8,9 +9,22 @@ import ProcessSection from "../components/ProcessSection";
 import { Link } from "react-router-dom";
 
 const Services = () => {
+  const [visibleServicesHeading, setVisibleServicesHeading] = useState(false);
+
+  useEffect(() => {
+        const showServicesHeadingTimeout = setTimeout(() => {
+          setVisibleServicesHeading(true);
+        }, 100);
+
+    // Cleanup timeout
+    return () => {
+      clearTimeout(showServicesHeadingTimeout);
+    };
+  }, []);
+
   return (
     <div className="container mb-4 mt-4">
-      <h1 className="text-center services-page">Services</h1>
+      <h1 className={`text-center services-page ${visibleServicesHeading ? 'visible' : ''}`}>Services</h1>
       <p className="mb-4 main-paragraph">
         At <span>Pam Web Solutions</span>, I provide a range of web development services
         designed to meet your specific business needs, no matter where you are
