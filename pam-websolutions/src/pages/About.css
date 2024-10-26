@@ -19,6 +19,7 @@
 .specialize-p,
 .creator {
     background: linear-gradient(to bottom, #FFFF, #FFFF, rgb(81, 201, 235));
+    background: linear-gradient(to bottom ,#FFFF, rgb(81, 201, 235), #FFFF);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
