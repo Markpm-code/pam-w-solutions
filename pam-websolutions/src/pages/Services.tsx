@@ -24,7 +24,7 @@ const Services = () => {
 
   return (
     <div className="container mb-4 mt-4">
-      <h1 className={`text-center services-page ${visibleServicesHeading ? 'visible' : ''}`}>Services</h1>
+      <h1 className={`text-center services-page ${visibleServicesHeading ? 'visible' : ''}`}>Services Page</h1>
       <p className="mb-4 main-paragraph">
         At <span>Pam Web Solutions</span>, I provide a range of web development services
         designed to meet your specific business needs, no matter where you are

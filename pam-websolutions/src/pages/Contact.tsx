@@ -18,7 +18,7 @@ const Contact = () => {
   }, []);
   return (
     <div className="container-fluid mt-4">
-      <h1 className={`text-center contact-me ${visibleContactHeading ? 'visible' : ''}`}>Contact Me</h1>
+      <h1 className={`text-center contact-me ${visibleContactHeading ? 'visible' : ''}`}>Contact Page</h1>
       <div className="container">
         <p>
           Ready to take your online presence to the next level? I'd love to hear
@@ -64,7 +64,7 @@ const Contact = () => {
           </p>
         </div>
         <div className="mb-4">
-          <h4>Follow Me</h4>
+          <h4>Follow Me:</h4>
           <a
             href="https://www.linkedin.com/in/marlon-mandaya-544172234/"
             target="_blank"
