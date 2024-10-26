@@ -3,7 +3,7 @@ import './Mobile.css';
 const MobileSection = () => {
   return (
     <div>
-      <section>
+      <section className='mobile-section'>
         <h2 className="mobile-heading">Mobile-Responsive Design</h2>
         <p>
           More than half of web traffic comes from mobile devices. I ensure your
@@ -17,6 +17,7 @@ const MobileSection = () => {
           <li>Seamless experience across all screen sizes</li>
         </ul>
       </section>
+      <div className='mobile-circle'></div>
     </div>
   );
 };

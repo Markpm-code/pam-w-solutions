@@ -19,6 +19,7 @@ const ServicesSection = () => {
               <li>User-friendly, mobile-responsive layouts.</li>
               <li>HTML, CSS, React+Typescript, JavaScript, Bootstrap, Django and more.</li>
             </ul>
+            <div className='dev-circle'></div>
           </section>
     </div>
   )

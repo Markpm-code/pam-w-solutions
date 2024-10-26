@@ -5,3 +5,17 @@
     -webkit-text-fill-color: transparent;
     font-weight:bolder;
 }
+
+.mobile-section {
+    position: relative;
+}
+
+.mobile-circle {
+  position: absolute;
+  bottom: -35px;
+  right: -30px;
+  width: 60px;
+  height: 60px;
+  background: radial-gradient(circle, #FFFF, rgb(81, 201, 235), #FFFF, #FFFF);
+  border-radius: 50%;
+}
