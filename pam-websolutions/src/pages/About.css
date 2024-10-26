@@ -50,7 +50,7 @@
 .mrd:hover,
 .gcbs:hover {
     box-shadow: 0 0 20px 0 rgb(81, 201, 235);
-    transform: scale(1.05);
+    transform: scale(.9);
     transition: 1s ease-out;
 }
 
