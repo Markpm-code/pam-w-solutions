@@ -80,7 +80,7 @@ const Services = () => {
             <span className="in-touch">Get in Touch!</span> Ready to take your
             business to the next level with a powerful website?
             <Link to="/contact" className="me-1 services-contactPage-link">
-              Contact me today in our contact page for pricing
+              Contact me today in the contact page above or click here for pricing
             </Link>
             to get started!
           </p>

@@ -72,7 +72,7 @@ const About = () => {
           Let's work together to create a website that represents your brand and
           drives your business forward. Ready to get started?
           <Link to="/contact" className="me-2 contactFor-pricing">
-            Contact me today in our contact page for pricing
+            Contact me today in the contact page above or click here for pricing
           </Link>
           , and let's make your online journey a success!
         </p>
