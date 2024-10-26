@@ -18,13 +18,48 @@
 .about-pws,
 .specialize-p,
 .creator {
-    background: linear-gradient(to bottom, #FFFF, #FFFF, rgb(81, 201, 235));
     background: linear-gradient(to bottom ,#FFFF, rgb(81, 201, 235), #FFFF);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight:bolder;
     font-size: 20px;
+}
+
+.specialize-p {
+    text-transform: uppercase;
+}
+
+.web-development,
+.user-experience,
+.seo,
+.mrd,
+.gcbs {
+    padding: 15px; 
+    margin-bottom: 10px; 
+    background: linear-gradient(to right, rgb(81, 201, 235), #FFFF);
+    border-left: 8px solid #FFFF;
+    border-radius: 8px;
+    box-shadow: 0 0 4px 0 #FFFF;
+    color:black
+}
+
+.web-development:hover,
+.user-experience:hover,
+.seo:hover,
+.mrd:hover,
+.gcbs:hover {
+    box-shadow: 0 0 20px 0 rgb(81, 201, 235);
+    transform: scale(1.05);
+    transition: 1s ease-out;
+}
+
+.fa-screwdriver-wrench,
+.fa-palette,
+.fa-magnifying-glass,
+.fa-globe,
+.fa-mobile-screen {
+    color:#FFFF;
 }
 
 .contactFor-pricing {

@@ -37,31 +37,41 @@ const About = () => {
           reflect their brand and goals. I'm committed to delivering solutions
           that help your business thrive in the digital landscape.
         </p>
-        <div>
-          <p className='specialize-p'>I specialize in :</p>
-          <ul>
-            <li>
-              Web Development (HTML, CSS, JavaScript, Jquery, Bootstrap,
-              Node.js, React, Django).
-            </li>
-            <li>
-              Search Engine Optimization (SEO) to ensure your site ranks well in
-              search results.
-            </li>
-            <li>
-              Mobile-Responsive Design, ensuring your website looks great and
-              functions seamlessly on any device.
-            </li>
-            <li>
-              Google Console & Business Setup, including domain registration and
-              business page optimization.
-            </li>
-            <li>
-              User Experience (UX) & User Interface (UI) Design, for websites
-              that are both functional and visually appealing.
-            </li>
-          </ul>
-        </div>
+          <div className='col-lg-8 mx-auto'>
+            <p className="specialize-p text-center">I specialize in :</p>
+            <ul className="list-unstyled">
+              <li className="seo">
+                <i className="fa-sharp fa-solid fa-magnifying-glass"></i>
+                <strong> Search Engine Optimization</strong> (SEO) <br />
+                To ensure your site ranks well in search results
+              </li>
+              <li className="user-experience">
+                <i className="fa-solid fa-palette"></i>
+                <strong>
+                User Experience (UX) & User Interface (UI) Design
+                </strong>
+                <br /> For websites that are both functional and visually
+                appealing
+              </li>
+              <li className="gcbs">
+                <i className="fa-solid fa-screwdriver-wrench"></i>
+                <strong> Google Console & Business Setup</strong> <br />
+                Including domain registration and business page optimization.
+              </li>
+              <li className="web-development">
+              <i className="fa-solid fa-globe"></i>
+                <strong> Web Development</strong> <br />
+                HTML, CSS, JavaScript, Jquery, Bootstrap, Node.js, React, Django
+                and more
+              </li>
+              <li className="mrd">
+                <i className="fa-solid fa-mobile-screen"></i>
+                <strong> Mobile-Responsive Design</strong>
+                <br /> Ensuring your website looks great and functions seamlessly
+                on any device
+              </li>
+            </ul>
+          </div>
         <p>
           Whether you're just starting out or looking to upgrade your online
           presence, I'm here to build your digital platform from the ground up.
