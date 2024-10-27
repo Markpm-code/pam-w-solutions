@@ -35,6 +35,15 @@
   font-weight:900;
 }
 
+.freelance-text {
+  color:rgb(81, 201, 235);
+  /* background: linear-gradient(to bottom ,#FFFF, rgb(81, 201, 235), #FFFF);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight:bolder; */
+}
+
 .custom-sites p {
   text-align: center;
   margin: auto 6%;
@@ -68,9 +77,16 @@
   border-color: #FFFF;
 }
 
-.hire-list {
+.hire-list,
+.hire-me {
   text-align: left;
   margin-left: 30%;
+}
+
+.rd,
+.gb {
+  color: rgb(81, 201, 235);
+  padding: 4px;
 }
 
 .fa-mobile-screen,
@@ -204,6 +220,13 @@
 }
 
 @media only screen and (max-width: 540px) {
+  .welcome-content {
+    background: linear-gradient(to bottom left, #FFFF, rgb(81, 201, 235), #FFFF, rgb(81, 201, 235));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:900;
+  }
   .service_qoute {
     margin: 20% 25%;
     position: absolute;

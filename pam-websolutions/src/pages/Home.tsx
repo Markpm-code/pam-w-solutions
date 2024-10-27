@@ -72,7 +72,7 @@ const Home = () => {
           <div className="row mx-auto justify-content-center mb-4 pb-4">
             <div className="col-xl-6">
               <h1>Website Designs</h1>
-              <h2>A Freelance Web Developer</h2>
+              <h2 className='freelance-text'>A Freelance Web Developer</h2>
               <div className='custom-sites'>
                 <p>
                   Crafting custom websites that grow your business and engage
@@ -113,24 +113,24 @@ const Home = () => {
               {/* </div>
             </div> */}
             <div className="col-xl-6">
-              <h1>Hire Me</h1>
+              <h1 className='hire-me'>Hire Me</h1>
               <ul className='list-unstyled hire-list mb-4'>
-                <li>
+                <li className='rd'>
                   <i className="fa-solid fa-mobile-screen me-4 my-2"></i>
                   Responsive Design
                 </li>
-                <li>
+                <li className='seo-opt'>
                   <i className="fa-sharp fa-solid fa-magnifying-glass me-4 my-2"></i>
                   SEO Optimization
                 </li>
-                <li>
+                <li className='gb'>
                   <i className="fa-solid fa-screwdriver-wrench me-4 my-2"></i>
                   Google business page set-up
-                  </li>
-                <li>
+                </li>
+                <li className='rcd'>
                 <i className="fa-solid fa-registered me-4 my-2"></i>
                   Registering Custom Domain in Google
-                  </li>
+                </li>
               </ul>
               <div>
                 <div className="service_qoute ">
