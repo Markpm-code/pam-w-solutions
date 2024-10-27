@@ -73,13 +73,13 @@ const Home = () => {
             <div className="col-xl-6">
               <h1>Website Designs</h1>
               <h2>A Freelance Web Developer</h2>
-              <div>
+              <div className='custom-sites'>
                 <p>
                   Crafting custom websites that grow your business and engage
                   your audience and establish a strong online presence tailored
                   to your unique needs.
                 </p>
-                <p>
+                <p className='mt-4'>
                   Transforming ideas into responsive, user-friendly digital
                   experiences.
                 </p>
@@ -146,7 +146,7 @@ const Home = () => {
                     alt="responsive image"
                   />
                 </div>
-                <img className="tablet_img" src={Tablet} alt="tablet image" />
+                <img className="tablet_img img-fluid" src={Tablet} alt="tablet image" />
               </div>
             </div>
           </div>
