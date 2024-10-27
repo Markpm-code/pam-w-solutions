@@ -69,7 +69,7 @@ const Home = () => {
           <h1 className={`welcome-content ${visibleContent ? 'visible' : ''}`}>Welcome to Pam Web Solutions</h1>
         </div>
         <div className=" mt-4">
-          <div className="row mx-auto justify-content-center">
+          <div className="row mx-auto justify-content-center align-items-center mb-4 pb-4">
             <div className="col-xl-6">
               <h1>Website Designs</h1>
               <h2>A Freelance Web Developer</h2>
