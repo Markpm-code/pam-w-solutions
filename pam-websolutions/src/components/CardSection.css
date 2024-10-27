@@ -2,12 +2,16 @@
     width: 320px;
     height: 460px;
     margin:20px 10px;
-    box-shadow: 0 4px 8px #FFFF;
+    border: 4px dotted rgb(81, 201, 235);
     padding-bottom: 16px;
+    opacity: 1;
+    transition: opacity 1s ease-out, box-shadow 1s ease-out, transform 1s ease-out;
 }
 
 .card:hover {
-    box-shadow: 0 4px  20px rgb(81, 201, 235);
+    box-shadow: 0 0 20px 6px rgb(81, 201, 235);
+    transform: scale(0.95);
+    opacity: 0.9;
 }
 
 .card img {
