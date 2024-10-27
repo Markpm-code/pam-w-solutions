@@ -24,6 +24,7 @@ const ProcessSection = () => {
           </li>
         </ol>
       </section>
+      <div className='process-circle'></div>
     </div>
   );
 };

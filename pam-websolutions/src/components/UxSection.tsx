@@ -19,6 +19,7 @@ const UxSection = () => {
           <li>Focus on accessibility and ease of use</li>
         </ul>
       </section>
+      <div className='ui-circle'></div>
     </div>
   );
 };

@@ -19,3 +19,9 @@
   background: radial-gradient(circle, #FFFF, rgb(81, 201, 235), #FFFF, #FFFF);
   border-radius: 50%;
 }
+
+@media only screen and (max-width: 540px) {
+  .mobile-circle {
+    right: 40%;
+  }
+}

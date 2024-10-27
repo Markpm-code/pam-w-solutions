@@ -17,6 +17,7 @@ const SeoSection = () => {
           <li>Regular SEO audits and improvements</li>
         </ul>
       </section>
+      <div className='seo-circle'></div>
     </div>
   );
 };

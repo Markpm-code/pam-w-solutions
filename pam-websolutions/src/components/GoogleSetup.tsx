@@ -18,6 +18,7 @@ const GoogleSetup = () => {
           <li>Ongoing monitoring and management</li>
         </ul>
       </section>
+      <div className='google-circle'></div>
     </div>
   );
 };
