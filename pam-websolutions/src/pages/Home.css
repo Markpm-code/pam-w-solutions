@@ -65,16 +65,35 @@
 }
 
 .tablet_img {
-  width: 300px;
+  width: 320px;
   height: auto;
   position: relative;
+  box-shadow: 0 0 10px 5px rgb(81, 201, 235);
+  border-radius: 10px;
+  padding: 6px;
 }
 
 .service_qoute {
   width: 160px;
-  margin: 90px 0 0 90px;
+  margin: 6% 19.3%;
   position: absolute;
   z-index: 1;
+}
+
+.service_qoute p {
+  background: linear-gradient(to bottom right, rgb(81, 201, 235), rgb(35, 28, 28));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight:900;
+}
+
+.service-qoute-link {
+  background: linear-gradient(to bottom right, rgb(81, 201, 235), rgb(35, 28, 28));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight:bold;
 }
 
 .responsive_img {
@@ -85,14 +104,30 @@
 }
 
 .contact {
-  background: linear-gradient(rgb(81, 201, 235), #ffff);
-  border-color: #ffff;
+  position: relative;
+  padding: 4px;
   border-radius: 6px;
   width: 90%;
 }
 
+.contact::before {
+  content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: inherit;
+    padding: 2px;
+    background: linear-gradient(45deg, rgb(81, 201, 235), rgb(35, 28, 28));
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+    -webkit-mask-composite: destination-out;
+}
+
 .contact:hover {
-  box-shadow: 0px 2px 6px rgb(81, 201, 235);
+  box-shadow: 0 0 10px 4px rgb(81, 201, 235);
 }
 
 .exclamation-mark {

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import Responsive from "../assets/images/responsive_img.png";
-import Profile from "../assets/images/profile_img.png";
+// import Profile from "../assets/images/profile_img.png";
 import Tablet from "../assets/images/tablet.png";
 import Laptop from "../assets/images/laptop.png";
 import CardSection from "../components/CardSection";
@@ -59,8 +59,8 @@ const Home = () => {
 
   return (
     <>
-      <div className="home container-fluid">
-        <div className="text-center ">
+      <div className="home container-fluid text-center">
+        <div>
           <div className="mt-2">
             <h1 className={`greeting ${visibleGreeting ? 'visible' : ''}`}>
               {greetingMessage}!
@@ -68,9 +68,9 @@ const Home = () => {
           </div>
           <h1 className={`welcome-content ${visibleContent ? 'visible' : ''}`}>Welcome to Pam Web Solutions</h1>
         </div>
-        <div className="container mt-4">
-          <div className="row justify content-center">
-            <div className="col">
+        <div className=" mt-4">
+          <div className="row mx-auto justify-content-center">
+            <div className="col-xl-6">
               <h1>Website Designs</h1>
               <h2>A Freelance Web Developer</h2>
               <div>
@@ -85,10 +85,10 @@ const Home = () => {
                 </p>
               </div>
               <div>
-                <img className=" " src={Laptop} alt="laptop image" />
+                <img className="img-fluid " src={Laptop} alt="laptop image" />
               </div>
             </div>
-            <div className="col">
+            {/* <div className="col">
               <img className="profile " src={Profile} alt="profile image" />
               <div className="row justify-content-center mt-4">
                 <a
@@ -101,7 +101,7 @@ const Home = () => {
                 </a>
                 <a className="portfolio" href="">
                   Portfolio
-                </a>
+                </a> */}
                 {/* <a
                   className="github"
                   href="https://github.com/Markpm-code"
@@ -110,11 +110,11 @@ const Home = () => {
                 >
                   Github
                 </a> */}
-              </div>
-            </div>
-            <div className="col">
+              {/* </div>
+            </div> */}
+            <div className="col-xl-6">
               <h1>Hire Me</h1>
-              <ul>
+              <ul className='list-unstyled'>
                 <li>Responsive Design</li>
                 <li>SEO Optimization</li>
                 <li>Google business page set-up</li>
@@ -124,12 +124,12 @@ const Home = () => {
                 <div className="service_qoute ">
                   <p>A service that values your money.</p>
                   <button className="contact">
-                    <Link to="/contact" className="text-decoration-none">
+                    <Link to="/contact" className="text-decoration-none service-qoute-link">
                       Contact me here
                     </Link>
                   </button>
                   <img
-                    className="responsive_img"
+                    className="responsive_img img-fluid"
                     src={Responsive}
                     alt="responsive image"
                   />
