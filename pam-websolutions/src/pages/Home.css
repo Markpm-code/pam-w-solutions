@@ -171,6 +171,27 @@
   color: rgb(81, 201, 235);
 }
 
+@media only screen and (min-width: 768px) and (max-width:768px) {
+  .service_qoute {
+    margin: 16% 32.3%;
+    width: 270px;
+    font-size: larger;
+
+  }
+  .tablet_img {
+    width: 80%;
+    
+  }
+  .responsive_img {
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+  }
+  .contact {
+    width: 100%;
+  }
+}
+
 @media only screen and (max-width: 540px) {
   .service_qoute {
     margin: 23% 25%;
