@@ -114,21 +114,21 @@ const Home = () => {
             </div> */}
             <div className="col-xl-6">
               <h1>Hire Me</h1>
-              <ul className='list-unstyled hire-list'>
+              <ul className='list-unstyled hire-list mb-4'>
                 <li>
-                  <i className="fa-solid fa-mobile-screen me-4"></i>
+                  <i className="fa-solid fa-mobile-screen me-4 my-2"></i>
                   Responsive Design
                 </li>
                 <li>
-                  <i className="fa-sharp fa-solid fa-magnifying-glass me-4"></i>
+                  <i className="fa-sharp fa-solid fa-magnifying-glass me-4 my-2"></i>
                   SEO Optimization
                 </li>
                 <li>
-                  <i className="fa-solid fa-screwdriver-wrench me-4"></i>
+                  <i className="fa-solid fa-screwdriver-wrench me-4 my-2"></i>
                   Google business page set-up
                   </li>
                 <li>
-                <i className="fa-solid fa-registered me-4"></i>
+                <i className="fa-solid fa-registered me-4 my-2"></i>
                   Registering Custom Domain in Google
                   </li>
               </ul>
