@@ -64,6 +64,11 @@
   border-color: #FFFF;
 }
 
+.hire-list {
+  text-align: left;
+  margin-left: 30%;
+}
+
 .tablet_img {
   width: 320px;
   height: auto;
