@@ -17,7 +17,7 @@ const Contact = () => {
     };
   }, []);
   return (
-    <div className="container-fluid mt-4">
+    <div className="container-fluid mt-4 mb-4">
       <h1 className={`text-center contact-me ${visibleContactHeading ? 'visible' : ''}`}>Contact Page</h1>
       <div className="container">
         <p>

@@ -17,7 +17,7 @@ const About = () => {
   }, []);
 
   return (
-    <div>
+    <div className='mb-4'>
       <h1 className={`text-center mt-4 about-page ${visibleAboutHeading ? 'visible' : ''}`}>About Page</h1>
       <div className="container about-p">
         <p>

@@ -6,7 +6,7 @@ import Domain from "../assets/images/domain.png";
 
 const CardSection = () => {
   return (
-    <div className="row justify-content-center">
+    <div className="row justify-content-center mb-4">
       <div className="card ">
         <img className=" " src={SEO} alt="SEO image" />
         <h3>SEO Optimization</h3>
