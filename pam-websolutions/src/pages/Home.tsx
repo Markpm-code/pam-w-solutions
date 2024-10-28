@@ -71,7 +71,7 @@ const Home = () => {
         </div>
         <div className=" mt-4">
           <div className="row mx-auto justify-content-center mb-4 pb-4">
-            <div className="col-xl-6">
+            <div className="col-xl-6 col-md-10">
               <h1>Website Designs</h1>
               <h2 className='freelance-text'>A Freelance Web Developer</h2>
               <div className='custom-sites'>
@@ -85,8 +85,8 @@ const Home = () => {
                   experiences.
                 </p>
               </div>
-              <div className='laptop-image-div col-8 mx-auto'>
-                <div className='circle-laptop'>
+              <div className='laptop-image-div col-xl-8 col-md-10 mx-auto'>
+                <div className='circle-laptop w-75'>
                   <img className="img-fluid " src={Swing} alt="laptop image" />
                 </div>
               </div>
