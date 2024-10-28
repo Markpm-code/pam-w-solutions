@@ -1,8 +1,9 @@
 import "./CardSection.css";
-import Boxing from "../assets/images/bq_respnsive_design.png";
+// import Boxing from "../assets/images/bq_respnsive_design.png";
 import SEO from "../assets/images/seo-img.png";
 import Google from "../assets/images/google-pr.png";
 import Domain from "../assets/images/domain.png";
+import Swing from "../assets/images/responsive-swing.png"
 
 const CardSection = () => {
   return (
@@ -25,7 +26,7 @@ const CardSection = () => {
         </a>
       </div>
       <div className="card ">
-        <img className=" " src={Boxing} alt="responsive image" />
+        <img className=" " src={Swing} alt="responsive image" />
         <h3>Responsive Design</h3>
         <p>
           A responsive design adapts the web-page layout to the different screen

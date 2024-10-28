@@ -45,8 +45,8 @@
 }
 
 .laptop-image-div {
-  margin-top: 100px;
-  box-shadow: 0 0 10px 5px #FFFF;
+  margin-top: 60px;
+  /* box-shadow: 0 0 10px 5px #FFFF; */
   border-radius: 10px;
   padding: 20px 6px 0 6px;
   height: 380px;
@@ -58,6 +58,25 @@
   box-shadow: 0 0 10px 5px rgb(81, 201, 235);
   transform: scale(0.95);
   opacity: 0.9;
+}
+
+.circle-laptop {
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  /* overflow: hidden; */
+  border: 5px solid #ccc;
+  box-shadow: 0 0 20px 5px rgb(81, 201, 235);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -6px auto ;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .profile {
@@ -143,7 +162,7 @@
   width: 320px;
   height: auto;
   position: relative;
-  box-shadow: 0 0 10px 5px #FFFF;
+  /* box-shadow: 0 0 10px 5px #FFFF; */
   border-radius: 10px;
   padding: 6px;
   opacity: 1;

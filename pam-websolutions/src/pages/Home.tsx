@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react';
 import Responsive from "../assets/images/responsive_img.png";
 // import Profile from "../assets/images/profile_img.png";
+import Swing from "../assets/images/responsive-swing.png";
 import Tablet from "../assets/images/tablet.png";
-import Laptop from "../assets/images/laptop.png";
+// import Laptop from "../assets/images/laptop.png";
 import CardSection from "../components/CardSection";
 import "./Home.css";
 import { Link } from "react-router-dom";
@@ -85,7 +86,9 @@ const Home = () => {
                 </p>
               </div>
               <div className='laptop-image-div col-8 mx-auto'>
-                <img className="img-fluid " src={Laptop} alt="laptop image" />
+                <div className='circle-laptop'>
+                  <img className="img-fluid " src={Swing} alt="laptop image" />
+                </div>
               </div>
             </div>
             {/* <div className="col">
