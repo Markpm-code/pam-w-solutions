@@ -84,7 +84,7 @@ const Home = () => {
                   experiences.
                 </p>
               </div>
-              <div>
+              <div className='laptop-image-div col-8 mx-auto'>
                 <img className="img-fluid " src={Laptop} alt="laptop image" />
               </div>
             </div>

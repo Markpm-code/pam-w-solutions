@@ -43,6 +43,23 @@
   text-align: center;
   margin: auto 6%;
 }
+
+.laptop-image-div {
+  margin-top: 100px;
+  box-shadow: 0 0 10px 5px #FFFF;
+  border-radius: 10px;
+  padding: 20px 6px 0 6px;
+  height: 380px;
+  opacity: 1;
+  transition: opacity 1s ease-out, box-shadow 1s ease-out, transform 1s ease-out;
+}
+
+.laptop-image-div:hover {
+  box-shadow: 0 0 10px 5px rgb(81, 201, 235);
+  transform: scale(0.95);
+  opacity: 0.9;
+}
+
 .profile {
   width: 400px;
   height: 400px;
@@ -129,11 +146,14 @@
   box-shadow: 0 0 10px 5px #FFFF;
   border-radius: 10px;
   padding: 6px;
+  opacity: 1;
   transition: opacity 1s ease-out, box-shadow 1s ease-out, transform 1s ease-out;
 }
 
 .tablet_img:hover {
   box-shadow: 0 0 10px 5px rgb(81, 201, 235);
+  transform: scale(0.95);
+  opacity: 0.9;
 }
 
 .service_qoute {
