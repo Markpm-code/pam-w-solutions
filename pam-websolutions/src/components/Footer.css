@@ -20,6 +20,21 @@ footer p {
   font-size: 20px;
 }
 
+.readMoreBtn {
+  /* background: linear-gradient(to bottom ,#FFFF, rgb(81, 201, 235), #FFFF);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight:bold;
+  font-size: 18px; */
+  background: linear-gradient(to bottom ,rgb(81, 201, 235), #FFFF);
+  text-decoration: none;
+  border: 2px solid #FFFF;
+  padding: 4px ;
+  margin: 4px  10px ;
+  color:#353333;
+}
+
 .copyright {
   font-size: 20px;
   color: var(--primary);
