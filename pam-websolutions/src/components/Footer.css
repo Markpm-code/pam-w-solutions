@@ -35,6 +35,11 @@ footer p {
   color:#353333;
 }
 
+.modal-body {
+  overflow-y: scroll;
+  max-height: 70vh;
+}
+
 .copyright {
   font-size: 20px;
   color: var(--primary);
