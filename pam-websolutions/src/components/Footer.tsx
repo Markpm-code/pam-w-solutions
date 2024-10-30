@@ -33,7 +33,7 @@ const Footer: React.FC = () => {
             : preview}
           {preview.length > limit && (
             <Button
-              variant="link"
+              variant=""
               className="read-more readMoreBtn"
               onClick={() => toggleModal(title, text)}
             >
@@ -110,17 +110,17 @@ const Footer: React.FC = () => {
                   "Privacy Policy",
                   <>
                     <p>
-                      Pam Web Solutions values your privacy and is committed to
+                      <span className="span-sub-heading">Pam Web Solutions</span> values your privacy and is committed to
                       protecting your personal data. This policy explains what
                       information we collect, how we use it, and your rights
                       regarding this information.
                     </p>
 
-                    <h2>1. Information We Collect</h2>
+                    <h6 className="policy-sub-heading">1. Information We Collect</h6>
                     <p>
                       We collect information solely through our contact form:
                     </p>
-                    <ul>
+                    <ul className="list-unstyled privacy-list">
                       <li>
                         <strong>Full Name</strong>
                       </li>
@@ -135,14 +135,14 @@ const Footer: React.FC = () => {
                       </li>
                     </ul>
 
-                    <h2>2. How We Use Your Information</h2>
+                    <h6 className="policy-sub-heading">2. How We Use Your Information</h6>
                     <p>
                       We use the information provided in the contact form to
                       respond to your inquiries. We use <strong>EmailJs</strong>{" "}
                       to securely process this information.
                     </p>
 
-                    <h2>3. Data Security and Retention</h2>
+                    <h6 className="policy-sub-heading">3. Data Security and Retention</h6>
                     <p>
                       Your data is stored securely and is only retained as
                       necessary for business purposes. After handling your
@@ -150,7 +150,7 @@ const Footer: React.FC = () => {
                       required to retain it longer.
                     </p>
 
-                    <h2>4. Your Rights</h2>
+                    <h6 className="policy-sub-heading">4. Your Rights</h6>
                     <p>
                       You have the right to request access, correction, or
                       deletion of your personal information. To exercise these
@@ -158,10 +158,9 @@ const Footer: React.FC = () => {
                       <a href="">
                         info@pamwebsolutions.com
                       </a>
-                      .
                     </p>
 
-                    <h2>5. Updates</h2>
+                    <h6 className="policy-sub-heading">5. Updates</h6>
                     <p>
                       We may update this policy as needed. Please review it
                       periodically to stay informed about our data practices.
@@ -175,13 +174,13 @@ const Footer: React.FC = () => {
             {/* Modal for displaying full text */}
             <Modal show={showModal} onHide={() => setShowModal(false)}>
               <Modal.Header closeButton>
-                <Modal.Title className="text-dark">
+                <Modal.Title className="policy-heading">
                   {modalContent.title}
                 </Modal.Title>
               </Modal.Header>
               <Modal.Body className="text-dark">{modalContent.text}</Modal.Body>
               <Modal.Footer>
-                <Button variant="secondary" onClick={() => setShowModal(false)}>
+                <Button variant="" className="modal-closeBtn" onClick={() => setShowModal(false)}>
                   Close
                 </Button>
               </Modal.Footer>

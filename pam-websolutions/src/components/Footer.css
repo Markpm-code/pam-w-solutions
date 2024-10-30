@@ -21,23 +21,57 @@ footer p {
 }
 
 .readMoreBtn {
-  /* background: linear-gradient(to bottom ,#FFFF, rgb(81, 201, 235), #FFFF);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight:bold;
-  font-size: 18px; */
-  background: linear-gradient(to bottom ,rgb(81, 201, 235), #FFFF);
+  background: linear-gradient(to bottom ,rgb(81, 201, 235), #FFFF, rgb(81, 201, 235));
+  border-radius: 4px;
   text-decoration: none;
-  border: 2px solid #FFFF;
   padding: 4px ;
   margin: 4px  10px ;
-  color:#353333;
+}
+
+.readMoreBtn:hover {
+  background: #353333;  
+  color: #FFFF;
 }
 
 .modal-body {
   overflow-y: scroll;
   max-height: 70vh;
+}
+
+.policy-heading {
+  background: linear-gradient(to bottom, rgb(81, 201, 235), rgb(81, 201, 235), rgb(35, 28, 28));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight:bolder;
+  font-size: 24px;
+}
+
+.privacy-list {
+  background: linear-gradient(to bottom ,rgb(81, 201, 235), #FFFF, rgb(81, 201, 235));
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.policy-sub-heading,
+.span-sub-heading {
+  background: linear-gradient(to bottom, rgb(81, 201, 235), rgb(81, 201, 235), rgb(35, 28, 28));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight:bolder;
+  font-size: 18px;
+}
+
+.modal-closeBtn {
+  background: linear-gradient(to bottom ,rgb(81, 201, 235), #FFFF, rgb(81, 201, 235));
+  border-radius: 4px;
+}
+
+.modal-closeBtn:hover {
+  background: #353333;
+  color: #FFFF;
 }
 
 .copyright {
