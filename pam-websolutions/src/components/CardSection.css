@@ -1,13 +1,6 @@
-/* .card-container {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 20px;
-} */
-
 .card {
     width: 320px;
     height: auto;
-    /* height: 460px;*/
     margin:10px 10px;
     border: 3px solid rgb(81, 201, 235);
     box-shadow: 0 0 4px 4px #FFFF;
