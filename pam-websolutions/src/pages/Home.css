@@ -257,10 +257,20 @@
     -webkit-text-fill-color: transparent;
     font-weight:900;
   }
+  .laptop-image-div:hover {
+    box-shadow:none;
+  }
   .service_qoute {
     margin: 20% 25%;
     position: absolute;
     transform: skewX(0);
+  }
+  .hire-me {
+    border-top: 2px solid rgb(81, 201, 235);
+    margin-top: 40px;
+    margin-left: auto;
+    text-align: center;
+    padding:10px;
   }
   .hire-list {
     text-align: left;
