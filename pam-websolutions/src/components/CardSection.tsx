@@ -7,8 +7,8 @@ import Swing from "../assets/images/responsive-swing.png"
 
 const CardSection = () => {
   return (
-    <div className="row justify-content-center mb-4">
-      <div className="card ">
+    <div className="row justify-content-center mb-4 ">
+      <div className="card">
         <img className=" " src={SEO} alt="SEO image" />
         <h3>SEO Optimization</h3>
         <p>
@@ -25,7 +25,7 @@ const CardSection = () => {
           Learn More
         </a>
       </div>
-      <div className="card ">
+      <div className="card">
         <img className=" " src={Swing} alt="responsive image" />
         <h3>Responsive Design</h3>
         <p>
@@ -42,7 +42,7 @@ const CardSection = () => {
           Learn More
         </a>
       </div>
-      <div className="card ">
+      <div className="card">
         <img src={Google} alt="google profile image" />
         <h3>Google Business Profile</h3>
         <p>
@@ -59,7 +59,7 @@ const CardSection = () => {
           Learn More
         </a>
       </div>
-      <div className="card ">
+      <div className="card">
         <img src={Domain} alt="domain image" />
         <h3> Custom Domain</h3>
         <p>
