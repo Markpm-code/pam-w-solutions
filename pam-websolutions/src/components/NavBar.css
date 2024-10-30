@@ -37,6 +37,13 @@
     box-shadow: 0 8px  6px rgb(81, 201, 235);
 }
 
+@media only screen and (max-width: 1200px) {
+    .navbar-toggler {
+        background-color: var(--primary);
+        color: #FFFF;
+    }
+}
+
 @media only screen and (max-width: 400px) {
     .logo {
         width: 60px;
