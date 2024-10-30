@@ -55,7 +55,9 @@ footer p {
 }
 
 .policy-sub-heading,
-.span-sub-heading {
+.span-sub-heading,
+.cookie-p-list,
+.cookie-p-span {
   background: linear-gradient(to bottom, rgb(81, 201, 235), rgb(81, 201, 235), rgb(35, 28, 28));
   -webkit-background-clip: text;
   background-clip: text;

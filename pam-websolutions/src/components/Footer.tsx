@@ -57,11 +57,11 @@ const Footer: React.FC = () => {
                   "Cookie Policy",
                   <>
                     <p>
-                      Cookies are small text files placed on your device by
+                      <span className="cookie-p-span">Cookies</span> are small text files placed on your device by
                       websites you visit. They are widely used to enhance user
                       experience, allowing websites to remember your
                       preferences, analyze site traffic, and tailor content to
-                      user interests. However, at Pam Web Solutions, we
+                      user interests. However, at <span className="cookie-p-span">Pam Web Solutions</span>, we
                       prioritize your privacy and are committed to providing a
                       transparent browsing experience. Therefore, we want to
                       inform you that our website does not use cookies, tracking
@@ -70,15 +70,15 @@ const Footer: React.FC = () => {
                       browsing behavior, store personal preferences, or collect
                       any information about your activity online.
                     </p>
-                    <ul>
+                    <ul className="list-unstyled">
                       <li>
-                        <strong>No Data Collection Through Cookies</strong>: We
+                        <strong className="cookie-p-list">No Data Collection Through Cookies</strong>: We
                         do not track your browsing behavior, store personal
                         preferences, or collect any information about your
                         activity on our site.
                       </li>
                       <li>
-                        <strong>No Third-Party Cookies</strong>: We do not host
+                        <strong className="cookie-p-list">No Third-Party Cookies</strong>: We do not host
                         advertisements or integrate third-party trackers that
                         may place cookies on your device.
                       </li>
