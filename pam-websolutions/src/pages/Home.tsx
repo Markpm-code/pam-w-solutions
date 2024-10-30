@@ -11,20 +11,24 @@ import { Link } from "react-router-dom";
 function greetingUsers() {
   const now = new Date();
   const hours = now.getHours();
+  const minutes = now.getMinutes();
 
   let greeting;
 
-  if (hours < 12) {
+  if (hours === 23 && minutes === 59) {
+    greeting = "Almost midnight!";
+} else if (hours < 12) {
     greeting = "Good morning";
-  } else if (hours < 18) {
+} else if (hours < 18) {
     greeting = "Good afternoon";
-  } else {
+} else if (hours < 23) {
     greeting = "Good evening";
-  }
+} else {
+    greeting = "Good night";
+}
 
   return greeting;
 }
-
 
 const Home = () => {
   const [visibleGreeting, setVisibleGreeting] = useState(false);
