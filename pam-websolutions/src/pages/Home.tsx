@@ -1,9 +1,6 @@
 import { useEffect, useState } from 'react';
-import Responsive from "../assets/images/responsive_img.png";
-// import Profile from "../assets/images/profile_img.png";
+import Responsive from "../assets/images/responsive-pws-img.png";
 import Swing from "../assets/images/responsive-swing.png";
-import Tablet from "../assets/images/tablet.png";
-// import Laptop from "../assets/images/laptop.png";
 import CardSection from "../components/CardSection";
 import "./Home.css";
 import { Link } from "react-router-dom";
@@ -95,30 +92,6 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="col">
-              <img className="profile " src={Profile} alt="profile image" />
-              <div className="row justify-content-center mt-4">
-                <a
-                  className="linkedin"
-                  href="https://www.linkedin.com/in/marlon-mandaya-544172234/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Linkedin
-                </a>
-                <a className="portfolio" href="">
-                  Portfolio
-                </a> */}
-                {/* <a
-                  className="github"
-                  href="https://github.com/Markpm-code"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Github
-                </a> */}
-              {/* </div>
-            </div> */}
             <div className="col-xl-6">
               <h1 className='hire-me'>Hire Me</h1>
               <ul className='list-unstyled hire-list mb-4'>
@@ -139,21 +112,18 @@ const Home = () => {
                   Registering Custom Domain in Google
                 </li>
               </ul>
-              <div>
-                <div className="service_qoute ">
-                  <p>A service that values your money.</p>
+              <div className='service-qoute-container'>
+                <div className='service-qoute-card'>
+                  <p>A service that values your money</p>
                   <button className="contact">
                     <Link to="/contact" className="text-decoration-none service-qoute-link">
                       Contact me here
                     </Link>
                   </button>
-                  <img
-                    className="responsive_img img-fluid"
-                    src={Responsive}
-                    alt="responsive image"
-                  />
+                  <div className='service-qoute-image'>
+                    <img className="img-fluid" src={Responsive} alt="pws responsive image" />
+                  </div>
                 </div>
-                <img className="tablet_img img-fluid" src={Tablet} alt="tablet image" />
               </div>
             </div>
           </div>
