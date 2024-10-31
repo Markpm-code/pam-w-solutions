@@ -57,6 +57,10 @@
     padding: 10px;
 }
 
+.facebook-icon:hover,
+.linkedin-icon:hover {
+    box-shadow: 0 0 10px 5px rgb(81, 201, 235);
+}
 /* Responsive Media Queries */
 @media only screen and (min-width: 820px) and (max-width: 1024px) {
     .video-background {
