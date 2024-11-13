@@ -29,14 +29,14 @@ const Contact = () => {
         <p>Let's get in touch:</p>
         <ul className="list-unstyled">
           <li>
-            <i className="fa-solid fa-envelope me-3"></i>Email:
+            <i className="fa-solid fa-envelope me-3"></i><strong>Email:</strong> info@pamwebsolutions.com
           </li>
           <li>
-            <i className="fa-solid fa-phone me-3 mt-2"></i>Phone:
+            <i className="fa-solid fa-phone me-3 mt-2"></i><strong>Phone:</strong> +353-916-37055
           </li>
           <li>
             <i className="fa-solid fa-location-dot me-3 mt-2"></i>
-            Location: Galway, Ireland, offering services remotely worldwide.
+            <strong>Location:</strong> Galway, Ireland, offering services remotely worldwide.
           </li>
         </ul>
         <p>
