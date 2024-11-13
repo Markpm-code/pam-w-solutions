@@ -64,6 +64,11 @@
     color:#FFFF;
 }
 
+.fa-globe,
+.fa-palette {
+    margin-right: 10px;
+}
+
 .contactFor-pricing {
     color: rgb(81, 201, 235);
     font-size: 20px;
@@ -78,8 +83,5 @@
 @media only screen and (max-width: 540px) {
     .about-p p {
         text-align: justify;
-    }
-    .contactFor-pricing {
-    text-decoration: #FFFF underline;
     }
 }
