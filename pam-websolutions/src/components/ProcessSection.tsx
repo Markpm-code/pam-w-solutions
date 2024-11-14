@@ -17,9 +17,6 @@ const ProcessSection = () => {
             Launch: Going live with your new website and monitoring performance.
           </li>
           <li>
-            Launch: Going live with your new website and monitoring performance.
-          </li>
-          <li>
             Support: Ongoing maintenance and updates as your business grows.
           </li>
         </ol>
