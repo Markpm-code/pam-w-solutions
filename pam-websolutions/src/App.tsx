@@ -10,17 +10,31 @@ import Footer from "./components/Footer";
 
 import {
   // createBrowserRouter,
-  createHashRouter, // Use createHashRouter instead of createBrowserRouter
+  // createHashRouter,
+  createBrowserRouter, // Use createHashRouter instead of createBrowserRouter
   Route,
   createRoutesFromElements,
   RouterProvider,
 } from "react-router-dom";
 
 // createBrowserRouter
-const router = createHashRouter(
+// const router = createHashRouter(
+//   createRoutesFromElements(
+//     <Route path="/" element={<NavBar />}>
+//       <Route path="/" element={<Home />} />
+//       <Route path="about" element={<About />} />
+//       <Route path="contact" element={<Contact />} />
+//       <Route path="services" element={<Services />} />
+
+//       <Route path="*" element={<NotFound />} />
+//     </Route>
+//   )
+// );
+
+const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<NavBar />}>
-      <Route path="/" element={<Home />} />
+      <Route index element={<Home />} />
       <Route path="about" element={<About />} />
       <Route path="contact" element={<Contact />} />
       <Route path="services" element={<Services />} />

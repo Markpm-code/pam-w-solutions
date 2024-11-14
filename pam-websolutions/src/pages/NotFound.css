@@ -1,0 +1,19 @@
+.notFound-container {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 45vh;
+flex-direction: column;
+}
+
+.back-to-homepage {
+text-decoration: none;
+color: rgb(81, 201, 235);
+font-size: 20px;
+}
+
+@media only screen and (max-width: 540px) {
+    .back-to-homepage {
+        font-size: 16px;
+    }
+}
