@@ -9,28 +9,13 @@ import NotFound from "./pages/NotFound";
 import Footer from "./components/Footer";
 
 import {
-  // createBrowserRouter,
-  // createHashRouter,
-  createBrowserRouter, // Use createHashRouter instead of createBrowserRouter
+  createBrowserRouter,
   Route,
   createRoutesFromElements,
   RouterProvider,
 } from "react-router-dom";
 
-// createBrowserRouter
-// const router = createHashRouter(
-//   createRoutesFromElements(
-//     <Route path="/" element={<NavBar />}>
-//       <Route path="/" element={<Home />} />
-//       <Route path="about" element={<About />} />
-//       <Route path="contact" element={<Contact />} />
-//       <Route path="services" element={<Services />} />
-
-//       <Route path="*" element={<NotFound />} />
-//     </Route>
-//   )
-// );
-
+ // createBrowserRouter
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<NavBar />}>
