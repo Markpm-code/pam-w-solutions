@@ -7,6 +7,7 @@ import Contact from "./pages/Contact";
 import Services from "./pages/Services";
 import NotFound from "./pages/NotFound";
 import Footer from "./components/Footer";
+import SnowParticles from './components/SnowParticles';
 
 import {
   createBrowserRouter,
@@ -29,10 +30,18 @@ const router = createBrowserRouter(
   )
 );
 
+const isChristmasPeriod = (): boolean => {
+  const today = new Date();
+  const start = new Date(today.getFullYear(), 11, 1); // December 1st
+  const end = new Date(today.getFullYear() + 1, 0, 6, 23, 59, 59); // January 6th
+  return today >= start && today <= end;
+};
+
 function App() {
 
   return (
     <>
+        {isChristmasPeriod() && <SnowParticles />}
          <RouterProvider router={router} />
          <Footer />
     </>
